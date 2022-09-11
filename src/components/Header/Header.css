@@ -1,0 +1,14 @@
+.header-container {
+  color: white;
+  font-weight: bolder;
+  border-bottom: 1px dashed #25316d;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container p {
+  letter-spacing: 5px;
+  color: #f94892;
+}

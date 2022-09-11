@@ -1,0 +1,28 @@
+.form-input {
+  padding: 10px;
+  background: none;
+  border: none;
+}
+
+.input-group {
+  display: flex;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: max-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.message {
+  color: #af0171;
+}

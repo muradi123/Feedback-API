@@ -1,0 +1,32 @@
+li input {
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  position: absolute;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  color: #f94892;
+  max-width: 260px;
+}
+
+input[type="radio"]:checked + label {
+  color: white;
+}
